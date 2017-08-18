@@ -7,14 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CoreData/CoreData.h>
-
-@protocol ReceiptViewControllerDelegate <NSObject>
-
-
-@end
 
 @interface ReceiptViewController : UIViewController
-@property (nonatomic, weak) id<ReceiptViewControllerDelegate> delegate;
 
 @end
