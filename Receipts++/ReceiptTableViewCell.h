@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ReceiptTableViewCell.h
 //  Receipts++
 //
 //  Created by Elle Ti on 2017-08-17.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ReceiptTableViewCell : UITableViewCell
 
 @end
-
